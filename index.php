@@ -39,38 +39,26 @@
       </section>
       <section id="gallery">
         <div class="container">
-          <div class="row">
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/carrots.jpg" alt="Carrots">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/hunny.jpg" alt="Carrots">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/peach.jpg" alt="Carrots">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/pumkin.jpg" alt="Carrots">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/tomatoes.jpg" alt="Carrots">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-img">
-                <img src="img/gallery/veggies.jpg" alt="Carrots">
-              </div>
-            </div>
-          </div>
+              <ul class="gallery-set">
+                <li>
+                  <div class="gallery-img img-1"></div>
+                </li>
+                <li>
+                  <div class="gallery-img img-2"></div>
+                </li>
+                <li>
+                  <div class="gallery-img img-3"></div>
+                </li>
+                <li>
+                  <div class="gallery-img img-4"></div>
+                </li>
+                <li>
+                  <div class="gallery-img img-5"></div>
+                </li>
+                <li>
+                  <div class="gallery-img img-6"></div>
+                </li>
+              </ul>
           <div class="clearfix"></div>
         </div>
       </section>
