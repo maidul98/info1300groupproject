@@ -1,4 +1,5 @@
 <?php $header_id = "intro"; $header_title = "Farm Freshhh"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010."; $page_title="Home Page"; include 'include/header.php';?>
+<?php $header_id = "intro"; $header_title = "Farm Fresh"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010."; $page_title="Home Page"; include 'include/header.php';?>
       <section id="overview">
         <div class="sm-container">
             <div class="row">
