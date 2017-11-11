@@ -166,6 +166,12 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
   width: 50px;
   height: auto;
   margin-bottom: 15px;
+	margin-left: 35%;
+}
+
+.icon-text {
+	text-align: center;
+	font-weight: bolder;
 }
 
 #overview p{
@@ -176,7 +182,7 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
 /**Section: Where**/
 
 #where{
-  background-image: url(../img/mapbg.png);
+  /*background-image: url(../img/mapbg.png);*/
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
@@ -185,10 +191,17 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
 }
 
 .where-when{
-  background-color: rgba(255, 255, 242, .85);
-  width: 60%;
+  background-color: #DAF7A6;
+  width: 58%;
   float: right;
-  height: 60vh;
+  height: 52vh;
+}
+
+#g_map {
+	border: 0;
+	float: left;
+	width: 42%;
+	height: 52vh;
 }
 
 .where-when div{
@@ -290,7 +303,16 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
 #join-email{
 	padding: 7px;
   border: .2px solid black;
-	margin-bottom: 17px;
+	margin-bottom: 7%;
+}
+
+
+.submit-btn {
+	margin-bottom: 7%;
+	background: black;
+  color: white;
+  padding: 8px 15px;
+  border: none;
 }
 
 .option-set h6{

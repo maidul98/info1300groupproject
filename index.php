@@ -1,23 +1,26 @@
-<?php $header_id = "intro"; $header_title = "Farm Fresh"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010."; $page_title="Home Page"; include 'include/header.php';?>
+<?php $header_id = "intro"; $header_title = "Farm Fresh @ Cornell"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010. Every Thursday on Arts Quad from 11-2!"; $page_title="Home Page"; include 'include/header.php';?>
       <section id="overview">
         <div class="sm-container">
             <div class="row">
               <div class="col-3">
                 <div class="icon-sustainable">
-                  <img src="img/icons/group.png" alt="group of people icon">
+                  <img src="img/icons/team.png" alt="group of people icon">
+                  <!-- Icon by Freepik from flaticon.com-->
                   <div class="icon-text">Supports healthy communities</div>
                 </div>
               </div>
               <div class="col-3">
                 <div class="icon-sustainable">
                   <img src="img/icons/sprout.png" alt="sprout plant out of hand">
+                  <!-- Icon by Freepik from flaticon.com-->
                   <div class="icon-text">Promotes Sustainability</div>
                 </div>
               </div>
               <div class="col-3">
                 <div class="icon-sustainable">
                   <img src="img/icons/tractor.png" alt="tractor icons">
-                  <div class="icon-text">Increased access to nutritious food</div>
+                  <!-- Icon by Freepik from flaticon.com-->
+                  <div class="icon-text">Increases access to nutritious food</div>
                 </div>
               </div>
               <div class="clearfix"></div>
@@ -27,11 +30,12 @@
       </section>
       <section id="where" >
         <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.978663424147!2d-76.48666128439439!3d42.449470079181125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0818a0f7b1b8b%3A0x92e21c1556e03f0d!2sArts+Quad%2C+Ithaca%2C+NY+14850!5e0!3m2!1sen!2sus!4v1510428178136" id="g_map" allowfullscreen></iframe>
           <div class="where-when">
             <div>
               <h3>Where and When?</h3>
               <p>We are located on west side of the Ag Quad every Thursday on the Arts Quad from 11-2 on Cornell campus.</p>
-              <button type="button" id="get-directions" class="black-button">Get directions</button>
+              <!-- <button type="button" id="get-directions" class="black-button">Get directions</button> -->
             </div>
           </div>
           <div class="clearfix"></div>
@@ -66,27 +70,27 @@
         <div class="container">
           <div class="option-container">
           <div class="row">
-            <a href="#">
+
               <div class="col-3">
                 <div class="option-set">
-                  <h6>Want to join our team?</h6>
-                  <p>We are currently hiring in three different positions.</p>
+                  <h6>We are hiring!</h6>
+                  <p><a href="#"><button type="submit" class="submit-btn" class="black-button">Get Involved</button></a></p>
                 </div>
               </div>
-            </a>
-            <a href="#">
+            
+
               <div class="col-3">
                 <div class="option-set">
                   <h6>View vendors</h6>
-                  <p>View our vendors from both Cornell and the Ithaca community.</p>
+                  <p><a href="#"><button type="submit" class="submit-btn" class="black-button">View Vendors</button></a></p>
                 </div>
               </div>
-            </a>
+
             <div class="col-3">
               <div class="option-set">
                 <h6>Join our email list</h6>
                 <input type="email" name="email" id="join-email" placeholder="Enter your email here">
-                <button type="submit" id="submit-email" class="black-button">Join</button>
+                <a href="#"><button type="submit" class="submit-btn">Join</button></a>
               </div>
             </div>
           </div>
