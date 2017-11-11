@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <?php $header_id = "intro"; $header_title = "Farm Fresh @ Cornell"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010. Every Thursday on Arts Quad from 11-2!"; $page_title="Home Page"; include 'include/header.php';?>
 =======
+<?php $header_id = "intro"; $header_title = "Farm Freshhh"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010."; $page_title="Home Page"; include 'include/header.php';?>
 >>>>>>> b12f983b228b418de136d7076d121d592a14743f
       <section id="overview">
         <div class="sm-container">
@@ -37,7 +38,7 @@
           <div class="where-when">
             <div>
               <h3>Where and When?</h3>
-              <p>We are located on west side of the Ag Quad every Thursday on the Arts Quad from 11-2 on Cornell campus.</p>
+              <p>We are located on west side of the Ag Quad and are on the Arts Quad every Thursday from 11-2 on the Cornell campus.</p>
               <!-- <button type="button" id="get-directions" class="black-button">Get directions</button> -->
             </div>
           </div>
@@ -80,7 +81,7 @@
                   <p><a href="#"><button type="submit" class="submit-btn" class="black-button">Get Involved</button></a></p>
                 </div>
               </div>
-            
+
 
               <div class="col-3">
                 <div class="option-set">
