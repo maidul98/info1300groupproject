@@ -273,6 +273,57 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
 }
 
 
+/**Section: Gallery1**/
+.gallery-set1{
+	text-align: center;
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin:0 70px;
+	padding-bottom: 200px;
+}
+
+.gallery-set1 li{
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 10px;
+	padding-bottom: 50px;
+}
+
+.gallery-img1{
+	width: 100%;
+	height: 100%;
+}
+
+.img-11{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+
+.img-21{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+.img-31{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+.img-41{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+.img-51{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+.img-61{
+	background-image: url(../img/members/placeholder.jpg);
+	background-size: cover;
+}
+
+
+
 /**Section: Options**/
 #options{
 	background-image: /* top, transparent black */ linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg2.jpg);
@@ -354,4 +405,67 @@ footer{
 
 main{
 	position: relative;
+}
+
+/**About Us Style**/
+.aboutHead{
+	  font-size: 50px;
+	  margin-bottom: 25px;
+		font-weight: bold;
+		text-align: center;
+}
+.aboutSummary{
+	font-family: bitter, georgia, serif;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-weight: inherit;
+	color: #86926c;
+	font-style: italic;
+}
+.details{
+	background-color: lightyellow;
+}
+.vendor-container{
+	 max-width: 850px;
+	 margin: 0 auto;
+}
+
+#g_map1 {
+	border: 0;
+	float: left;
+	width: 100%;
+	height: 52vh;
+}
+h4{
+	font-size: 30px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+h2{
+	font-size: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+/**Vendors Style**/
+
+.vendorDetails{
+	width: 50%;
+	float: left;
+}
+.vendorImg{
+	float: right;
+}
+.vendorHead h3{
+	font-size: 40px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	text-align: left;
+}
+.vendorObjects{
+	padding-bottom: 330px;
 }
