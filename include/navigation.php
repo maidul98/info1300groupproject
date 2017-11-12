@@ -1,4 +1,4 @@
-<div class="nav-conatiner">
+<div class="nav-container">
   <div class="container">
     <div class="logo">
       <img src="img/logo.png" alt="Logo">
