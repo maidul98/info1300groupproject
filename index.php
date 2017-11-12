@@ -1,6 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php $header_id = "intro"; $header_title = "Farm Fresh @ Cornell"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010. Every Thursday on Arts Quad from 11-2!"; $page_title="Home Page"; include 'include/header.php';?>
 
+=======
+
+<?php $header_id = "intro"; $header_title = "Farm Fresh @ Cornell"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010. Every Thursday on Arts Quad from 11-2!"; $page_title="Home Page"; include 'include/header.php';?>
+
+=======
+<!-- <<<<<<< HEAD -->
+<?php $header_id = "intro"; $header_title = "Farm Fresh @ Cornell"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010. Every Thursday on Arts Quad from 11-2!"; $page_title="Home Page"; include 'include/header.php';?>
+<!-- ======= -->
+<!-- <?php $header_id = "intro"; $header_title = "Farm Freshhh"; $header_description = "Local food and artisanal goods brought to Cornell University with perfection since 2010."; $page_title="Home Page"; include 'include/header.php';?>
+>>>>>>> b12f983b228b418de136d7076d121d592a14743f -->
+>>>>>>> b52984e7f3523553a8c372322a3dfeba8f09affa
+>>>>>>> 449fe336bcb2a95bb031af7cd9a5a9c87702ef75
       <section id="overview">
         <div class="sm-container">
             <div class="row">
