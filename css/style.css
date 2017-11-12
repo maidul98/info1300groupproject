@@ -407,6 +407,7 @@ main{
 	position: relative;
 }
 
+<<<<<<< HEAD
 /**About Us Style**/
 .aboutHead{
 	  font-size: 50px;
@@ -468,4 +469,26 @@ h2{
 }
 .vendorObjects{
 	padding-bottom: 330px;
+=======
+/*Page: Get Involved*/
+#getinvolved {
+	background-image: /* top, transparent black */ linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/getin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  text-align: center;
+  background-position-y: 45%;
+}
+
+#options_getin{
+	background-image: /* top, transparent black */ linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/nohead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  text-align: center;
+  background-position-y: 80%;
+	margin-bottom: 0 !important;
+>>>>>>> b52984e7f3523553a8c372322a3dfeba8f09affa
 }
