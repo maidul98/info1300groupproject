@@ -61,7 +61,6 @@
               Interested in volunteering or receiving updates about our market? Join our list serve!
               <br><br><br>
               <input type="email" name="email" id="join-email-getin" placeholder="Enter your email here">
-
           <div class="clearfix"></div>
           </div>
         </div>
