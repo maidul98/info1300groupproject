@@ -17,7 +17,7 @@
         </div>
       </section>
 
-      <section id="options_getin">
+      <section class="options_getin">
         <div class="container">
           <div class="option-container">
           <div class="row">
@@ -48,4 +48,24 @@
           </div>
         </div>
       </section>
+      <br><br><br><br><br><br>
+
+      <section class="options_getin2">
+        <div class="container">
+          <div class="option-container">
+          <div class="row">
+              <div id="signuphead">
+                Sign up for updates!
+              </div>
+              <br>
+              Interested in volunteering or receiving updates about our market? Join our list serve!
+              <br><br><br>
+              <input type="email" name="email" id="join-email-getin" placeholder="Enter your email here">
+
+          <div class="clearfix"></div>
+          </div>
+        </div>
+      </section>
+
+
 <?php include 'include/footer.php' ?>

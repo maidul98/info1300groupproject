@@ -306,6 +306,12 @@ nav ul li a:link, nav ul li a:visited, nav ul li a:active{
 	margin-bottom: 7%;
 }
 
+#join-email-getin {
+	padding: 12px;
+  border: .1px solid white;
+	width: 70%;
+	text-align: center;
+}
 
 .submit-btn {
 	margin-bottom: 7%;
@@ -367,7 +373,7 @@ main{
   background-position-y: 45%;
 }
 
-#options_getin{
+.options_getin{
 	background-image: /* top, transparent black */ linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/nohead.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,4 +382,25 @@ main{
   text-align: center;
   background-position-y: 80%;
 	margin-bottom: 0 !important;
+}
+
+.options_getin2{
+	background-image: /* top, transparent black */ linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/dilmun.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+  background-position-y: 80%;
+	margin-bottom: 0 !important;
+}
+
+#signuphead {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 7px;
 }
